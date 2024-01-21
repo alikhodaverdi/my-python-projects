@@ -60,7 +60,7 @@ for symbol in message:
             num = num + len(SYMBOLS)
 
         # Add encrypted/decrypted numbers symbol to translated:
-            translated = translated + SYMBOLS[num]
+        translated = translated + SYMBOLS[num]
     else:
         translated = translated + symbol
 
